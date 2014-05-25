@@ -1,5 +1,5 @@
-Midibox
-=======
+VLR - Midibox
+==============
 
 Welcome 
 
