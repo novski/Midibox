@@ -3,12 +3,9 @@ VLR - Midibox
 
 Welcome 
 
-Im Building Midibox Parts since 2010. All my Layouts and Parts are available here soon. 
-Im no professional in Electronics or in Layouting, so be careful and check all the parts you give to factory. 
-I don't take guarantee for any of those parts or the software im uploading. 
-But i have tested every module and can say that they work in my hands...
+Im Building Midibox Parts since 2010. All my Layouts and Parts are available here soon.
 
-You can use my products without any copyright.
+You can use my products under the TAPR License: http://www.ucapps.de/TAPR_Noncommercial_Hardware_License_v1.0.pdf.
 
 the source of this work is to find at www.ucapps.com
 
