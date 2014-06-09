@@ -9,6 +9,6 @@ You can use my products under the TAPR License: http://www.ucapps.de/TAPR_Noncom
 
 the source of this work is to find at www.ucapps.com
 
-There you can find friends at www.midibox.org/forums
+You can find involved people at www.midibox.org/forums
 
 Partslists are in Progress..
