@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1545,6 +1545,12 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <wire x1="59" y1="5.635" x2="59" y2="134.365" width="0.127" layer="20"/>
 <wire x1="59" y1="134.365" x2="59.635" y2="135" width="0.127" layer="20" curve="-90"/>
 </package>
+<package name="VLRLAB">
+<text x="0" y="0" size="1.27" layer="29" font="vector" ratio="15">designed by 
+VLRlab.com</text>
+<text x="0" y="0" size="1.27" layer="39" font="vector" ratio="15">designed by 
+VLRlab.com</text>
+</package>
 </packages>
 </library>
 <library name="Jumper">
@@ -1570,6 +1576,14 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+</packages>
+</library>
+<library name="Beschriftungen">
+<packages>
+<package name="DOUT">
+<text x="0" y="0" size="1.778" layer="29" font="vector">DOUTV1.3</text>
+<text x="0" y="0" size="1.778" layer="39" font="vector">DOUTV1.3</text>
 </package>
 </packages>
 </library>
@@ -1863,6 +1877,10 @@ design rules under a new name.</description>
 <element name="SJ6" library="Jumper" package="SJ" value="" x="37.592" y="89.408" rot="R180"/>
 <element name="SJ7" library="Jumper" package="SJ" value="" x="37.592" y="62.738" rot="R180"/>
 <element name="SJ8" library="Jumper" package="SJ" value="" x="37.592" y="35.306" rot="R180"/>
+<element name="U$2" library="Beschriftungen" package="DOUT" value="" x="40.64" y="133.35"/>
+<element name="U$3" library="Beschriftungen" package="DOUT" value="" x="52.07" y="133.35" rot="MR0"/>
+<element name="U$4" library="Frames_VLR" package="VLRLAB" value="" x="41.91" y="3.81"/>
+<element name="U$5" library="Frames_VLR" package="VLRLAB" value="" x="53.34" y="3.81" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2608,4 +2626,10 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
