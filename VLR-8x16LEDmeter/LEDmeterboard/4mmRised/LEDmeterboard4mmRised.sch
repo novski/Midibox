@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -366,8 +366,8 @@ Low profile connectors, straight&lt;p&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
 <packages>
 <package name="3MM-EDGE-LED">
-<smd name="KATHODE" x="2" y="0" dx="3" dy="1" layer="1"/>
-<smd name="ANODE" x="2" y="0" dx="3" dy="1" layer="16"/>
+<smd name="KATHODE" x="2" y="0" dx="3" dy="2" layer="1"/>
+<smd name="ANODE" x="2" y="0" dx="3" dy="2" layer="16"/>
 <text x="7.8" y="-0.4" size="1.778" layer="25" align="center">&gt;NAME</text>
 <text x="7.8" y="-0.4" size="1.778" layer="26" rot="SMR180" align="center">&gt;NAME</text>
 <text x="3.7" y="1.5" size="1.016" layer="26" rot="SMR180" align="center">ANODE +</text>

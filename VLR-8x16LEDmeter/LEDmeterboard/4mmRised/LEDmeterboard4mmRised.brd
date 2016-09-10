@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="39.3700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -108,7 +108,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="89" x2="0" y2="1" width="0" layer="20"/>
 <wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="1" y1="0" x2="7.5857875" y2="0" width="0" layer="20"/>
 <wire x1="7.5857875" y1="0" x2="8.29289375" y2="0.29289375" width="0" layer="20" curve="45"/>
@@ -124,7 +123,6 @@
 <wire x1="14.5734625" y1="89.598575" x2="14.258240625" y2="89.81923125" width="0" layer="20"/>
 <wire x1="14.258240625" y1="89.81923125" x2="13.684778125" y2="90" width="0" layer="20" curve="34.99205"/>
 <wire x1="13.684778125" y1="90" x2="1" y2="90" width="0" layer="20"/>
-<wire x1="1" y1="90" x2="0" y2="89" width="0" layer="20" curve="90"/>
 <hole x="4.5" y="2.5" drill="3"/>
 <hole x="4.5" y="87.5" drill="3"/>
 <text x="10.9108" y="32.8836" size="1.778" layer="26" rot="SMR270">VLR-MeterBoardV1.3</text>
@@ -146,14 +144,53 @@
 <text x="5.6032" y="18.5" size="1.016" layer="26" rot="MR0">LED3</text>
 <text x="5.6032" y="13.5" size="1.016" layer="26" rot="MR0">LED2</text>
 <text x="5.6032" y="8.5" size="1.016" layer="26" rot="MR0">LED1</text>
-<dimension x1="0" y1="0" x2="12" y2="0" x3="6" y3="-4.39" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="90" x3="-2.97" y3="45" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="89" x2="15" y2="89" x3="7.5" y3="93" textsize="1.778" layer="47"/>
+<dimension x1="-4" y1="0" x2="12" y2="0" x3="4" y3="-6.89" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="90" x3="-9.47" y3="45" textsize="1.778" layer="47"/>
+<dimension x1="-4" y1="89" x2="15" y2="89" x3="5.5" y3="93" textsize="1.778" layer="47"/>
 <dimension x1="2.2" y1="7.5" x2="4.5" y2="2.5" x3="-8" y3="5" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="2.2" y1="12.5" x2="2.2" y2="7.5" x3="-8" y3="10" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="4.5" y1="87.5" x2="4.5" y2="2.5" x3="-13" y3="45" textsize="1.778" layer="47"/>
-<dimension x1="4.5" y1="2.5" x2="0" y2="2.5" x3="2.25" y3="-0.9" textsize="1.778" layer="47"/>
+<dimension x1="4.5" y1="2.5" x2="0" y2="2.5" x3="2.25" y3="-2.9" textsize="1.778" layer="47"/>
 <dimension x1="2.2" y1="82.5" x2="4.5" y2="87.5" x3="-1" y3="85" textsize="1.778" layer="47" dtype="vertical"/>
+<wire x1="1" y1="90" x2="0" y2="90" width="0" layer="20"/>
+<wire x1="0" y1="90" x2="0" y2="84" width="0" layer="20"/>
+<wire x1="0" y1="84" x2="0" y2="83.75" width="0" layer="20"/>
+<wire x1="0" y1="83.75" x2="-4" y2="83.75" width="0" layer="20"/>
+<wire x1="-4" y1="83.75" x2="-4" y2="82.8" width="0" layer="20"/>
+<wire x1="-4" y1="82.2" x2="-4" y2="77.8" width="0" layer="20"/>
+<wire x1="-4" y1="77.2" x2="-4" y2="72.8" width="0" layer="20"/>
+<wire x1="-4" y1="72.2" x2="-4" y2="67.8" width="0" layer="20"/>
+<wire x1="-4" y1="67.2" x2="-4" y2="62.8" width="0" layer="20"/>
+<wire x1="-4" y1="62.2" x2="-4" y2="57.8" width="0" layer="20"/>
+<wire x1="-4" y1="57.2" x2="-4" y2="52.8" width="0" layer="20"/>
+<wire x1="-4" y1="52.2" x2="-4" y2="47.8" width="0" layer="20"/>
+<wire x1="-4" y1="47.2" x2="-4" y2="42.8" width="0" layer="20"/>
+<wire x1="-4" y1="42.2" x2="-4" y2="37.8" width="0" layer="20"/>
+<wire x1="-4" y1="37.2" x2="-4" y2="32.8" width="0" layer="20"/>
+<wire x1="-4" y1="32.2" x2="-4" y2="27.8" width="0" layer="20"/>
+<wire x1="-4" y1="27.2" x2="-4" y2="22.8" width="0" layer="20"/>
+<wire x1="-4" y1="22.2" x2="-4" y2="17.8" width="0" layer="20"/>
+<wire x1="-4" y1="17.2" x2="-4" y2="12.8" width="0" layer="20"/>
+<wire x1="-4" y1="12.2" x2="-4" y2="7.8" width="0" layer="20"/>
+<wire x1="-4" y1="7.2" x2="-4" y2="6.5" width="0" layer="20"/>
+<wire x1="0" y1="1" x2="0" y2="6.5" width="0" layer="20"/>
+<wire x1="0" y1="6.5" x2="-4" y2="6.5" width="0" layer="20"/>
+<wire x1="-4" y1="82.8" x2="-4" y2="82.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="77.8" x2="-4" y2="77.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="72.8" x2="-4" y2="72.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="67.8" x2="-4" y2="67.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="62.8" x2="-4" y2="62.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="57.8" x2="-4" y2="57.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="52.8" x2="-4" y2="52.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="47.8" x2="-4" y2="47.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="42.8" x2="-4" y2="42.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="37.8" x2="-4" y2="37.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="32.8" x2="-4" y2="32.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="27.8" x2="-4" y2="27.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="22.8" x2="-4" y2="22.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="17.8" x2="-4" y2="17.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="12.8" x2="-4" y2="12.2" width="0" layer="20" curve="-180"/>
+<wire x1="-4" y1="7.8" x2="-4" y2="7.2" width="0" layer="20" curve="-180"/>
 </plain>
 <libraries>
 <library name="con-ml_Ivan">
@@ -280,8 +317,8 @@ Low profile connectors, straight&lt;p&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
 <packages>
 <package name="3MM-EDGE-LED">
-<smd name="KATHODE" x="2" y="0" dx="3" dy="1" layer="1"/>
-<smd name="ANODE" x="2" y="0" dx="3" dy="1" layer="16"/>
+<smd name="KATHODE" x="2" y="0" dx="3" dy="2" layer="1"/>
+<smd name="ANODE" x="2" y="0" dx="3" dy="2" layer="16"/>
 <text x="7.8" y="-0.4" size="1.778" layer="25" align="center">&gt;NAME</text>
 <text x="7.8" y="-0.4" size="1.778" layer="26" rot="SMR180" align="center">&gt;NAME</text>
 <text x="3.7" y="1.5" size="1.016" layer="26" rot="SMR180" align="center">ANODE +</text>
@@ -481,52 +518,52 @@ design rules under a new name.</description>
 <elements>
 <element name="METERBOARD" library="con-ml_Ivan" package="ML20EDGE" value="ML20-EDGE" x="12.7332" y="72.65" smashed="yes" rot="MR0"/>
 <element name="LED1" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="7.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="5.381" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="4.605" y="4.881" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED2" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="12.5" smashed="yes">
-<attribute name="NAME" x="0.505" y="10.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="4.505" y="10.481" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED3" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="17.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="15.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="14.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED4" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="22.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="20.381" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="19.881" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED5" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="27.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="25.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="24.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED6" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="32.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="30.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="29.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED7" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="37.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="35.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="34.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED8" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="42.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="40.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="39.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED9" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="47.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="45.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="44.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED10" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="52.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="50.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="49.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED11" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="57.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="55.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="54.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED12" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="62.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="60.581" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="60.081" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED13" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="67.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="65.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="64.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED14" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="72.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="70.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="69.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED15" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="77.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="75.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="74.981" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED16" library="led" package="3MM-EDGE-LED" value="3MM-EDGE-LED" x="0.2" y="82.5" smashed="yes">
-<attribute name="NAME" x="0.605" y="80.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.605" y="79.981" size="1.27" layer="25" ratio="10"/>
 </element>
 </elements>
 <signals>
